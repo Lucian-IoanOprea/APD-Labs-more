@@ -11,8 +11,6 @@ pthread_mutex_t lock;
 
 // race condition 
 
-
-
 void *f( void *args){
    // pthread_mutex_t lock = *( pthread_mutex_t * )args;
   // pthread_mutex_lock(&*( pthread_mutex_t * )args);
